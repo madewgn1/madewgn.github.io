@@ -33,7 +33,7 @@ ${description}`
   const encodedFileText = encodeURIComponent(fileText)
 
   //Generate a github link with query parameter
-  const githubQueryLink = "https://github.com/CSS-Tricks/serverless/new/master/src/content/resources/new?value=" + encodedFileText +"&filename=" + filename
+  const githubQueryLink = "https://github.com/madewgn/madewgn.github.io/new/master/_posts/new?value=" + encodedFileText +"&filename=" + filename
   
   //Open in a new tab
 window.open(githubQueryLink) 

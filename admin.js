@@ -24,8 +24,8 @@ function validateSubmission(){
   let fileText = `---
 layout: post
 title: "${title}"
-img: "${url}"
-author: "${author}"
+img: "${img}"
+date: "${date}"
 tags: ${formattedTags}
 ---
 ${description}`

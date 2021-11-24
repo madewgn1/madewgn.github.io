@@ -7,8 +7,8 @@ function getValue(name){
 function validateSubmission(){
   //save all the input values
   const title = getValue('title')
-  const url = getValue('url')
-  const author = getValue('author')
+  const url = getValue('img')
+  const author = getValue('date')
   const tags = getValue('tags')
   const description = getValue('description')
   
@@ -22,8 +22,9 @@ function validateSubmission(){
   //Generate a string mimicing the file structure
   //Indentation is important here
   let fileText = `---
+layout: post
 title: "${title}"
-url: "${url}"
+img: "${url}"
 author: "${author}"
 tags: ${formattedTags}
 ---

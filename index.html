@@ -3,6 +3,8 @@ layout: main
 ---
 {% for post in paginator.posts %}
 <article class="post">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616"
+     crossorigin="anonymous"></script>
   {% if post.img %}
     <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
   {% else %}
